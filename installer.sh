@@ -12,4 +12,5 @@ echo Installing nmap
 apt-get install nmap -y
 echo Adding cronjob
 (crontab -l ; echo "*/5 * * * * $PWD/Scanner/scan.sh") | crontab -
+chmod +x Scanner/scan.sh
 cd $pwd

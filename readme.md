@@ -1,6 +1,6 @@
 # Install
 
-The installer installs it on root by default
+The installer uses 5min crontab by default
 
 ```sh
 chmod +x installer.sh
